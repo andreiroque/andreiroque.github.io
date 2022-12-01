@@ -1,23 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+
 *{
     margin: 0;
     padding: 0;
-
+    box-sizing:  border-box;
 }
-div{
-    text-align: center;
-    margin: 0;
-    padding: 0;
+body{
+    scroll-behavior: smooth;
+    font-family: "Amatic SC", sans-serif;
+}
+.container{
     height: 100vh;
-    width: 100vw;
-}
-h1{
-    font-family: "Century Gothic", sans-serif;
+    font-size: 4rem;
     text-align: center;
-    font-size: 50px;
     padding-top: 100px;
-    margin-bottom: 300px;
+}
+.container1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aed9e0;
+}
+.container2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf3dd;
+}
+.container3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffa69e;
+}
+.container4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b8f2e6;
+}
+.container5{
+    background-color: #5e6472;
 }
 button{
+    margin-top: 150px;
     border-radius: 10px;
     font-size: 20px;
     cursor: pointer;
